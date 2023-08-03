@@ -1,0 +1,93 @@
+.carrossel__titulo {
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 2em 0 1em 0;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.card__descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__botões {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botões {
+    display: flex;
+}
+
+.card {
+    background: #815a30;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.descrição__título {
+    color: var(--branco);
+    font-weight: 700;
+}
+
+.descrição__título-jogo {
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descrição__texto {
+    font-size: 14px;
+    margin: 0.5em;
+}
+
+.descrição__imagem {
+    justify-content: right;
+    width: 30%;
+    margin-top: 0.5em;
+}
+
+.botões__item {
+    margin: 0 0.5em;
+}
+
+.botões__ancôra {
+    background-color: var(--branco);
+    padding: 1em 2.2em;
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.botões__ancôra a:hover {
+    color: var(--azul);
+}
+
+.botões__ancôra a:active {
+    color: rgb(31, 0, 170);
+}
+
+.botões__ancôra:hover {
+    background-color: var(--cinza-claro);
+    color: var(--cor-de-fundo);
+}
